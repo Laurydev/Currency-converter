@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <div class="background-shape animate__animated animate__slideInDown"></div>
+
+    <div class="converter animate__animated animate__pulse">
+        <p>Currency Converter</p>
+
+        <input type="number" id="amount" placeholder="Enter amount" />
+
+        <div class="currency-row">
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+            </select>
+
+            <span class="arrow">→</span>
+
+            <select id="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="ARS">ARS</option>
+            </select>
+        </div>
+
+        <button id="convertBtn">Convert</button>
+
+        <div id="result"></div>
+    </div>
+    
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

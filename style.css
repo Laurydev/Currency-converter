@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Fondo decorativo superior */
+.background-shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+  background-color: #003153;
+  clip-path: polygon(
+  0% 0%,
+  100% 0%,
+  100% 70%,
+  75% 75%,
+  50% 80%,
+  25% 75%,
+  0% 70%
+);
+  z-index: 0;
+}
+
+/* Caja principal del conversor */
+.converter {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+/* Título */
+p {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Input de monto */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  user-select: auto;
+}
+
+/* Selects de moneda */
+.currency-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.currency-row select {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #d6d6d6;
+}
+
+.arrow {
+  font-size: 20px;
+  font-weight: bold;
+  color: #376996;
+}
+
+/* Botón convertir */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #004C7A;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+button:active {
+  transform: scale(0.97);
+} 
+
+button:hover {
+  background-color:  #01619e;
+}
+
+/* Resultado */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 600px) {
+  p{
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+}
