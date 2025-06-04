@@ -6,7 +6,7 @@ A currency converter made with HTML, CSS, and JavaScript, using a real-world API
 
 **Demo**
 
-[View site](http://https://fanciful-medovik-cfbd4e.netlify.app/ "View site")
+[View site](https://fanciful-medovik-cfbd4e.netlify.app/)
 
 
 ------------
