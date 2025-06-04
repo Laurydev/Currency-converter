@@ -39,7 +39,7 @@ A currency converter made with HTML, CSS, and JavaScript, using a real-world API
 
 ------------
 
-** What did I learn?**
+**What did I learn?**
 
 - How to consume a real API from the frontend
 - How to validate and process user input
