@@ -28,7 +28,7 @@ A currency converter made with HTML, CSS, and JavaScript, using a real-world API
 
 - HTML5 (site structure)
 - CSS3 (styles, layout, media queries, clip-path)
-- JavaScript ES6+
+- JavaScript
 - Events (addEventListener)
 - DOM Manipulation
 - Fetch API (async/await)
